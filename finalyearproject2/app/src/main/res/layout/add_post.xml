@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--used to instruct user to input text that they want to post-->
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post_hint"/>
+
+    <!--referenced in add_post.java-->
+    <Spinner
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/category_spinner">
+    </Spinner>
+
+    <!--Image Button commented out as unable to get image storage and download functionality working
+
+    <!-used to select image to add for post
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="15dp"
+        android:id="@+id/add_image"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_add_image"/>
+
+    -->
+
+    <!-- container for post text-->
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/postEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--submits post to database and should also appear in content activity screen-->
+    <Button
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/postButton"
+        android:text="@string/post"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorButton"/>
+
+</LinearLayout>

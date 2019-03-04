@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- xml layout of the post pulled from firebase database to show in recyclerview on content/java screen-->
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:background="@drawable/post_border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Label to identify category text-->
+            <TextView
+                android:id="@+id/category_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/category_label"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentLeft="true"/>
+
+            <!--Display category of post-->
+            <TextView
+                android:id="@+id/post_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Category"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="12sp"
+                android:layout_toRightOf="@id/category_label"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Display date of post -->
+            <TextView
+                android:id="@+id/post_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textAlignment="viewEnd"
+                android:layout_margin="5dp"
+                android:textSize="12sp" />
+
+            <!--Display time of post-->
+            <TextView
+                android:id="@+id/post_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                android:layout_margin="5dp"
+                android:textSize="12sp"
+                android:layout_toLeftOf="@id/post_date" />
+
+        </LinearLayout>
+
+        <!--Display post text-->
+        <TextView
+            android:id="@+id/post_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/post_date"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="14sp" />
+
+        <!--ImageView commented out as unable to get image storage and download functionality working
+        <!-used to display post image
+
+            <ImageView
+                android:id:="@+id/post_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="3dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"/>
+
+                -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--clickable like icon-->
+            <ImageButton
+                android:id="@+id/like_button"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/view_bottom"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="5dp"
+                android:src="@mipmap/ic_unlike" />
+
+            <!--Like Icon text "Like"-->
+            <TextView
+                android:id="@+id/likeView"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_bottom"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/comment_button"
+                android:text="@string/likes" />
+
+            <!--clickable comment icon-->
+            <ImageButton
+                android:id="@+id/comment_button"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/view_bottom"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="5dp"
+                android:src="@mipmap/ic_post_comment" />
+
+            <!--Comment Icon text "Comment"-->
+            <TextView
+                android:id="@+id/commentView"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_bottom"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/comment_button"
+                android:text="@string/comment" />
+
+            <!--Clickable 'Share' icon, Share icon used-->
+            <ImageButton
+                android:id="@+id/share_button"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/view_bottom"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="5dp"
+                android:src="@mipmap/ic_share" />
+
+            <!--Share Icon text "Share"-->
+            <TextView
+                android:textSize="14sp"
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view_bottom"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@id/report_button"
+                android:text="@string/share" />
+
+            <!--Clickable 'report' icon, flag icon used-->
+            <ImageButton
+                android:id="@+id/report_button"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/view_bottom"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="5dp"
+                android:src="@mipmap/ic_report" />
+
+            <!--Flag Icon text "Report"-->
+            <TextView
+                android:textSize="14sp"
+                android:id="@+id/report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view_bottom"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@id/report_button"
+                android:text="@string/flag" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

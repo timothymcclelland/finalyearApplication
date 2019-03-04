@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Post Category Label-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/category_label"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/edit_delete_post_category_label"
+        android:textSize="16sp"/>
+
+    <!--Post Category-->
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_delete_post_category"
+        android:textSize="16sp"/>
+
+    <!--Post Label-->
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post_label"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/edit_delete_post_text_label"
+        android:textSize="16sp"/>
+
+    <!--Post Text-->
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_delete_post_text"
+        android:textSize="16sp"/>
+
+    <!--edit post button-->
+    <Button
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPostButton"
+        android:text="@string/edit_post"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorButton"/>
+
+    <!--delete post button-->
+    <Button
+        android:layout_marginLeft="15dp"
+        android:id="@+id/deletePostButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorButton"
+        android:text="@string/delete_post"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>

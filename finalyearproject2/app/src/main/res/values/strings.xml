@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Walk with God</string>
+    <string name="button_anonymous">Login anonymously</string>
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="hint_email">email</string>
+    <string name="hint_password">password</string>
+    <string name="sign_up_text">Don\'t have an account? Register</string>
+    <string name="log_in_text">Already have an account? Login</string>
+    <string name="forgot_password_text">Forgot Password? Reset</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_text">Please enter the email address linked with your account to receive password reset link.</string>
+    <string name="filter_toolbar">Filter by Category</string>
+    <string name="sort_toolbar">Sort by Order</string>
+    <string name="sign_out_toolbar">Sign Out</string>
+    <string name="comment">Comment</string>
+    <string name="flag">Report</string>
+    <string name="post_hint">Share a thought</string>
+    <string name="post">Post</string>
+    <string name="Category">Category</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="category_label">Category:</string>
+    <string name="post_label">Post:</string>
+    <string name="commentsScreenTitle">Comments</string>
+    <string name="commentHint">Write a comment</string>
+    <string name="edit_post">Edit</string>
+    <string name="delete_post">Delete</string>
+    <string name="dialog_text">Edit Post:</string>
+    <string name="dialog_post_hint">Post</string>
+    <string name="report_button_text">Submit Report</string>
+    <string name="hint_report_information">Report Information</string>
+    <string name="report_instruction_text">Please provide reason for reporting user/comment along with information to be included in your report.</string>
+    <string name="post_category">Category of Post</string>
+    <string name="searchButtonText">Search</string>
+    <string name="searchHintText">Filter by Category, date, time or post content</string>
+    <string name="notification">Notify</string>
+    <string name="bible_link">Open Bible App</string>
+    <string name="like">Like</string>
+    <string name="likes">0 likes</string>
+    <string name="share">Share</string>
+    <string name="setTextSize">Set Text Size</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="churchLocator">Church Locator</string>
+    <string name="church_search">Find a church...</string>
+    <string name="find_churches">Find Nearby Churches</string>
+    <string name="google_places_api_key">AIzaSyBv-FCpO2fabbdVwBGjyls8NWM-gh-ZPwE</string>
+
+    <!-- string array used for report reason spinner values -->
+    <string-array name="report_reason_array">
+        <item>Inappropriate Language Used</item>
+        <item>Inappropriate Content</item>
+        <item>False statement/guidance</item>
+        <item>Harassment orientated</item>
+    </string-array>
+
+    <!-- string array used for category spinner values -->
+    <string-array name="category_array">
+        <item>Work</item>
+        <item>Education</item>
+        <item>Relationships</item>
+        <item>Family Life</item>
+        <item>Mental Health</item>
+        <item>Life Threatening Issues</item>
+        <item>Biblical Guidance</item>
+        <item>Testimonials</item>
+        <item>Prayer Requests</item>
+        <item>Bible Verses</item>
+    </string-array>
+
+</resources>
