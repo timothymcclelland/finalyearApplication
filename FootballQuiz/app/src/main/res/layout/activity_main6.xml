@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/a3033c8b069b102dd3b1f15c56f9c541"
+    tools:context="com.example.uuj.footballquiz.Main6Activity">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/capture"
+        android:id="@+id/imageView1"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home_black_24dp"
+        android:id="@+id/button_home"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Who finished 20th for the 2008/09 PL season?"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/imageView1"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/text6"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="@string/button_q5.1"
+            android:layout_marginTop="20dp"
+            android:id="@+id/hull"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="@string/button_q5.2"
+            android:layout_marginTop="40dp"
+            android:id="@+id/newcastle"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="@string/button_q5.3"
+            android:layout_marginTop="60dp"
+            android:id="@+id/westbrom"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="@string/button_q5.4"
+            android:layout_marginTop="80dp"
+            android:id="@+id/portsmouth"
+            android:layout_centerHorizontal="true"/>
+
+    </LinearLayout>
+</RelativeLayout>

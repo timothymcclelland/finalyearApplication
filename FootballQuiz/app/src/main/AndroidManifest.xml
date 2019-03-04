@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uuj.footballquiz">
+
+    <!--The following manifest file was edited to include my own created icon.  I created the icon using the same football image that is
+    contained in the activity main file and edited it using paint to contain the text editor style that I used for the ImageView at the top of the app
+
+    Further to this I included xml to set the screen orientation to only portrait as the app looks best in this orientation.
+
+    I changed the theme of the app to remove the action bar to allow the app to be full screen.  These changes can be seen within the styles.xml file.
+
+    I created strings within the strings.xml file to make referencing of each button within the app easier.
+
+    I used the example given in https://code.tutsplus.com/tutorials/android-ui-workshop-build-an-interactive-quiz-app-mobile-14208 to give me an idea of how to develop my application.
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/football_icon"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main6Activity"></activity>
+    </application>
+
+</manifest>

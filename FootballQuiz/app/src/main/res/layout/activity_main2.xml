@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/a3033c8b069b102dd3b1f15c56f9c541"
+    tools:context="com.example.uuj.footballquiz.Main2Activity">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/capture"
+        android:id="@+id/imageView1"/>
+
+    <!-- The home button is an android icon that should is contained within the folder of the overall application
+        This is used throughout the rest of the app
+    -->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home_black_24dp"
+        android:id="@+id/button_home"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp" />
+
+    <!-- The forward button is an android icon that should is contained within the folder of the overall application
+        This is used throughout the next 3 activities of the app
+   -->
+    <ImageButton
+        android:id="@+id/forward_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_forward_black_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <!--Two separate Linear Layouts contained within the relative layout to allow positioning of the answer buttons and textview item
+        This is used throughout the app
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <!-- All questions used throughout the app were researched online-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="How many PL titles have Chelsea won?"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/imageView1"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/text2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="@string/button_q1.1"
+        android:layout_marginTop="20dp"
+        android:id="@+id/five"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="@string/button_q1.2"
+        android:layout_marginTop="40dp"
+        android:id="@+id/three"
+        android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="@string/button_q1.3"
+            android:layout_marginTop="60dp"
+            android:id="@+id/eight"
+            android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/button_q1.4"
+                android:layout_marginTop="80dp"
+                android:id="@+id/four"
+                android:layout_centerHorizontal="true"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

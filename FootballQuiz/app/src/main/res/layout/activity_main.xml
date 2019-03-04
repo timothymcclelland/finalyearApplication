@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/a3033c8b069b102dd3b1f15c56f9c541"
+    tools:context="com.example.uuj.footballquiz.MainActivity">
+    <!-- Background altered to use a drawable resource from https://s-media-cache-ak0.pinimg.com/236x/a3/03/3c/a3033c8b069b102dd3b1f15c56f9c541.jpg
+         The background is also set in each activity to maintain consistency-->
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/capture"
+        android:id="@+id/imageView"/>
+    <!-- Premier Football Quiz logo created using a text editor http://www.1001fonts.com/Sports-fonts.html
+            Used throughout app
+    -->
+
+    <!-- The start Button uses a button with an image view behind it
+    -->
+    <Button
+            android:text="START"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/start_button"
+            android:textColor="#FF0000"
+            android:textSize="50sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+    <!-- The football image was obtained from https://cdn.pixabay.com/photo/2012/04/15/18/52/soccer-34898_960_720.png-->
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/football_image"
+        android:id="@+id/football_button"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Premier Football Quiz</string>
+    <string name="button_home">Home</string>
+    <string name="button_q1.1">5</string>
+    <string name="button_q1.2">3</string>
+    <string name="button_q1.3">8</string>
+    <string name="button_q1.4">4</string>
+    <string name="button_q2.1">1890</string>
+    <string name="button_q2.2">1885</string>
+    <string name="button_q2.3">1910</string>
+    <string name="button_q2.4">1892</string>
+    <string name="button_q3.1">Paul Pogba</string>
+    <string name="button_q3.2">Fernando Torres</string>
+    <string name="button_q3.3">Raheem Sterling</string>
+    <string name="button_q3.4">Mezut Ozil</string>
+    <string name="button_q4.1">Wayne Rooney</string>
+    <string name="button_q4.2">Robin Van Persie</string>
+    <string name="button_q4.3">Sergio Aguero</string>
+    <string name="button_q4.4">Fernando Torres</string>
+    <string name="button_q5.1">Hull City</string>
+    <string name="button_q5.2">Newcastle United</string>
+    <string name="button_q5.3">West Bromwich Albion</string>
+    <string name="button_q5.4">Portsmouth</string>
+</resources>

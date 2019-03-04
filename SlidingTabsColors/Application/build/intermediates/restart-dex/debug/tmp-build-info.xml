@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="24"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="143493324395968"
+    token="5219251220803728249"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="5160" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="2906" />
+    <task
+        name="verifier"
+        duration="5039" />
+
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_619932d129aac200eb7b96bf4da437daa4bd44d7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_340f013f917da6d57a7d0f0ac67324a11fe8d662\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-25.0.1_2f7d54a8e8b67126c6a0ba8f13a32d2159212c8a\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_27d9a887572c07bd8f49c03cae683b62d02db08e\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.1_bea5e05642a29e0c24d69ab8a42d341a0a2e2eb9\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_5888977b10ff9dfb74a0f27a6d3a82e659c07530\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_e8fb138f5c6c35871765d93828388a27d93f32dc\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_a7a0ae58f1abd19826e2bcfbf017b497148bc06e\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6cc48128862a2eedb8423a6456775ad952694d07\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_6367e6f6eb6d01c44ac3d865c02f0a329a3fc93f\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_2a9237d5304225f9dc9e518444b51d6d7a370852\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_948d70e97c3f558da689c851d2ce3386b730c3ee\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_0b88f9053b7ea9c84492dee9f535ed0269f4841b\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_a3d1b0890c76929054ae8fbd7a3cc131fea8d4a3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_362c431b5009fdf36ee65f94ae696fe8a5a32914\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_6ce134438afd171cbadc007c65acdc9afbe66359\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Timothy\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_7ec5324a390d1a6327e6aa764cde2a0e690429f9\classes.dex"
+        type="DEX" />
+
+</instant-run>
