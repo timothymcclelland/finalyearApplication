@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Survival Cookery</string>
+    <string name="Category">Category</string>
+
+    <!-- The Server's IP adress isn't static so it is changed here when needed -->
+    <string name="ipAddress">http://86.162.51.90/</string>
+
+
+    <!-- addition page, edittext hints -->
+    <string name="UIRecipeNameHint">Easter Pancakes...</string>
+    <string name="UIMethodHint">Step 1: Heat oven to 180C/350F/Gas4...</string>
+    <string name="UIIngredientsHint">100ml milk, 2 eggs...</string>
+    <string name="UIRecipeDescriptionHint">Large round white chocolate pancakes...</string>
+    <string name="UIChefNameHint">Give yourself a name...</string>
+    <string name="submit">Submit</string>
+    <string name="errorMessage">Please ensure you have filled out all the fields"</string>
+
+    <!-- addition page, help titles -->
+    <string name="UISpinnerHelp">Select what category you meal falls under:</string>
+    <string name="UIRecipeNameHelp">Give your recipe its own unique name:</string>
+    <string name="UIChefHelp">Let everyone know who you are:</string>
+    <string name="UIDescriptionHelp">Describe what you have made:</string>
+    <string name="UIIngredientsHelp">Ingredients:</string>
+    <string name="UIMethodHelp">Give a step by step guide on how to produce your meal:</string>
+
+    <!-- list details page, titles -->
+    <string name="UIRecipeName">Recipe</string>
+    <string name="UIChef">Chef</string>
+    <string name="UICategory">Category</string>
+    <string name="UIIngredents">Ingredents</string>
+    <string name="UIMethod">Method</string>
+    <string name="UIDescription">Description</string>
+
+    <!-- Spinner dropdown-->
+    <string-array name="category_array">
+        <item>Snack</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+
+    <!-- Server -->
+    <string name="Snack">Snack</string>
+    <string name="Breakfast">Breakfast</string>
+    <string name="Lunch">Lunch</string>
+    <string name="Dinner">Dinner</string>
+    <string name="All">All</string>
+
+
+</resources>

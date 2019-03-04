@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinnerCustom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:padding="4dp"
+    android:layout_gravity="left"
+    style="@style/stSpinner"/>
+    <!-- http://stackoverflow.com/questions/10409871/how-to-increase-spinner-item-font-size -->

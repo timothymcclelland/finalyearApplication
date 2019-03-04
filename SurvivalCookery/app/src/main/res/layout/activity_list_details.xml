@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.b00684772.survivalcookery.ListDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/backbutton"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+            <ImageButton
+                android:id="@+id/backbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+            <ImageView
+                android:id="@+id/ivRecipeImage"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+            <TextView
+                style="@style/stTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/UIRecipeName" />
+
+            <TextView
+                android:id="@+id/tvRecipeName"
+                style="@style/stTextViewReturn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/rowText"/>
+
+            <TextView
+                style="@style/stTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/UIChef" />
+
+            <TextView
+                android:id="@+id/tvRecipeChef"
+                style="@style/stTextViewReturn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/rowText"
+                />
+
+            <TextView
+                style="@style/stTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/UICategory" />
+
+            <TextView
+                android:id="@+id/tvRecipeDesciption"
+                style="@style/stTextViewReturn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/rowText" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/stTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/UIDescription" />
+
+            <TextView
+                android:id="@+id/tvRecipeCategory"
+                style="@style/stTextViewReturn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/rowText"/>
+
+            <TextView
+                style="@style/stTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/UIIngredents" />
+
+            <TextView
+                android:id="@+id/tvRecipeIngredients"
+                style="@style/stTextViewReturn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/rowText"
+                />
+
+            <TextView
+                style="@style/stTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/UIMethod" />
+
+            <TextView
+                android:id="@+id/tvRecipeMethod"
+                style="@style/stTextViewReturn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/rowText"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:orientation="vertical"
+    tools:context="com.example.b00684772.survivalcookery.RecipeAdpater">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<!--Used frame layout to ensure that every list item was the same size-->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/topRow"
+            >
+
+            <TextView
+                android:id="@+id/tvRecipeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="recipe_name_placeholder"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:padding="4dp"
+                android:textColor="@color/rowText"/>
+
+
+            <TextView
+                android:id="@+id/tvRecipeChef"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chiefs name"
+                android:layout_weight="1"
+                android:layout_gravity="right"
+                android:padding="4dp"
+                android:textColor="@color/rowText"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivRecipeImage"
+                android:layout_width="375dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:gravity="center" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/underRow"
+            >
+
+            <TextView
+                android:id="@+id/tvRecipeDesciption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="recipe_desciption_placeholder"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:padding="4dp"
+                android:maxLength="48"
+                android:textColor="@color/rowText"/>
+
+
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

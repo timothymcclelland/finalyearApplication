@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application Colours. -->
+    <color name="colorPrimary">#87b4c7</color>
+    <color name="colorPrimaryDark">#404e4d</color>
+    <color name="colorAccent">#8bae00</color>
+    <color name="background">#faf3dd</color>
+    <color name="allText">#59310d</color>
+    <color name="hints">#e1b76e</color>
+    <color name="buttonBackground">#87b4c7</color>
+    <color name="buttonText">#ffffff</color>
+    <color name="topRow">#87b4c7</color>
+    <color name="underRow">#afdbee</color>
+    <color name="rowText">#ffffff</color>
+    <color name="hintColor">#c6c6c6</color>
+</resources>
+<!-- all colours used within the app were defined within colors.xml, but the colors were assigned in the styles.xml-->

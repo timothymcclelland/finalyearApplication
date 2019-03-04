@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_addition"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    tools:context="com.example.b00684772.survivalcookery.Addition">
+
+<!--Scrollview used to allow users to see any additional information that overflows-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3">
+
+                    <ImageButton
+                        android:id="@+id/backbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_arrow_back_black_24dp" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvMessageRecipe"
+                    style="@style/stTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/UIRecipeNameHelp" />
+
+                <EditText
+                    android:id="@+id/name"
+                    style="@style/stEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/UIRecipeNameHint" />
+
+                <TextView
+                    android:id="@+id/tvMessageChef"
+                    style="@style/stTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/UIChefHelp" />
+
+                <EditText
+                    android:id="@+id/chef"
+                    style="@style/stEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/UIChefNameHint" />
+
+                <TextView
+                    android:id="@+id/tvMessageSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/UISpinnerHelp"
+                    style="@style/stTextView"/>
+
+<!--Spinner used to allow users to select what category their meal falls under. Selections are Breakfast, Lunch, Snack, Dinner-->
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+                </Spinner>
+
+
+                <TextView
+                    android:id="@+id/tvMessageDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/UIDescriptionHelp"
+                    style="@style/stTextView" />
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/UIRecipeDescriptionHint"
+                    style="@style/stEditText"
+                    />
+
+                <TextView
+                    android:id="@+id/tvMessageIngredients"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/UIIngredientsHelp"
+                    style="@style/stTextView"/>
+
+                <EditText
+                    android:id="@+id/ingredients"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/UIIngredientsHint"
+                    style="@style/stEditText" />
+
+                <TextView
+                    android:id="@+id/tvMessageMethod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/UIMethodHelp"
+                    style="@style/stTextView"/>
+
+                <EditText
+                    android:id="@+id/method"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/UIMethodHint"
+                    style="@style/stEditText" />
+
+                <Button
+                    android:id="@+id/submitbutton"
+                    style="@style/stButtonViewReturn"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="0.3"
+                    android:text="@string/submit" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
